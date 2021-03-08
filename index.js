@@ -14,8 +14,8 @@ function nowServing(katzDeliLine){
 }
 function currentLine(katzDeliLine){
   if (katzDeliLine.length > 0){
-    var output = ""
-    for (var i = 0, i < katzDeliLine.length; i++){
+    var output = "";
+    for (var i = 0; i < katzDeliLine.length; i++){
       output += (i + 1) + ". " + katzDeliLine[i] + ", ";
     }
     output = output.slice(0,-2);
